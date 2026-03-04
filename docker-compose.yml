@@ -35,7 +35,7 @@ services:
       - MYSQL_USER=capsule_user
       - MYSQL_PASSWORD=secure_password_123
     volumes:
-      -mysql:/var/lib/mysql
+      - mysql:/var/lib/mysql
 
 volumes:
   mysql:
